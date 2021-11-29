@@ -25,7 +25,6 @@ class Fractal:
         # control settings
         self.vel = 0.01
         self.zoom, self.scale = 2.2 / height, 0.993
-        self.zoom_ratio = self.zoom / self.vel
         self.increment = ti.Vector([0.0, 0.0])
         self.max_iter, self.max_iter_limit = 30, 5500
         # delta_time
