@@ -3,7 +3,7 @@ import numpy as np
 import taichi as ti
 
 # settings
-res = width, height = 800, 450
+res = width, height = 800, 450 # with modern video card with CUDA support - increase res '1600, 900' and set 'ti.init(arch=ti.cuda)'
 offset = np.array([1.3 * width, height]) // 2
 # texture
 texture = pg.image.load('img/texture.jpg')
